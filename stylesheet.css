@@ -1,0 +1,70 @@
+.navigation-bar {
+    text-align: right;
+    font-size:12px;
+}
+
+.navigation-bar .items{
+    text-decoration: none;
+}
+.navigation-bar .items:hover{
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    height: 90px;
+
+}
+
+#search-bar {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px; 
+    border: 1px solid rgb(204, 216, 228);
+    background:white;
+    border-width: 1px;
+    border-radius: 30px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.main-buttons {
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.google-container {
+    background-color: rgb(248, 248, 248);
+    border-color: white;
+    font-size: 12px;
+    padding: 6px;   
+}
+
+.google-languages{
+    font-size:12px;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(242, 242, 242);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    color: rgba(70, 70, 70);
+    width: 500%;
+    font-size: 12px;
+}
+
+.footer li{
+    padding: 10px 10px;
+    list-style-type: none;
+}
+
+.footer li:hover{
+    text-decoration: underline;
+}
